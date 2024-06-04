@@ -10,7 +10,7 @@ function Card() {
     let Tfinal = (Math.round(tC * 100) / 100).toFixed(0);
     return Tfinal;
   };
-  const url1 = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=1e8ea7b19def091bf9bfb97d4e55ab3b`;
+  const url1 = "...your open weather api key";
 
   const fetchCityData = () => {
     fetch(url1)
